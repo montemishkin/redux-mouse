@@ -2,7 +2,7 @@
 
 Utilities for managing mouse state with redux.
 
-*Similar Art*: [redux-responsive](https://github.com/aaivazis/redux-responsive) - Manage the responsive state of your application using redux.
+**Similar Art**: [redux-responsive](https://github.com/aaivazis/redux-responsive) - Manage the responsive state of your application using redux.
 
 
 # Setup
