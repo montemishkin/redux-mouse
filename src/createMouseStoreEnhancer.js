@@ -1,5 +1,5 @@
 // local imports
-import addEventHandlers from 'util/addEventHandlers'
+import addEventHandlers from './addEventHandlers'
 
 
 export default (options) =>

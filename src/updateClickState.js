@@ -1,5 +1,4 @@
-// local imports
-import UPDATE_CLICK_STATE from 'actions/types/UPDATE_CLICK_STATE'
+export const UPDATE_CLICK_STATE = 'redux-mouse/UPDATE_CLICK_STATE'
 
 
 export default (isDown) => {

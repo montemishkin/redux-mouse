@@ -1,5 +1,4 @@
-// local imports
-import UPDATE_POSITION from 'actions/types/UPDATE_POSITION'
+export const UPDATE_POSITION = 'redux-mouse/UPDATE_POSITION'
 
 
 export default ({x, y}) => {

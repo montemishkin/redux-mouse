@@ -1,6 +1,6 @@
 // local imports
-import UPDATE_CLICK_STATE from 'actions/types/UPDATE_CLICK_STATE'
-import UPDATE_POSITION from 'actions/types/UPDATE_POSITION'
+import {UPDATE_CLICK_STATE} from './updateClickState'
+import {UPDATE_POSITION} from './updatePosition'
 
 
 const defaultState = {

@@ -1,6 +1,6 @@
 // local imports
-import mouse_reducer from './util/mouseReducer'
-import create_mouse_store_enhancer from './util/createMouseStoreEnhancer'
+import mouse_reducer from './mouseReducer'
+import create_mouse_store_enhancer from './createMouseStoreEnhancer'
 
 
 export const mouseReducer = mouse_reducer

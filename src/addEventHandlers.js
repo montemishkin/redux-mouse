@@ -1,8 +1,8 @@
 // third party imports
 import throttle from 'lodash/throttle'
 // local imports
-import updatePosition from 'actions/creators/updatePosition'
-import updateClickState from 'actions/creators/updateClickState'
+import updatePosition from './updatePosition'
+import updateClickState from './updateClickState'
 
 
 export default (store, options = {}) => {
