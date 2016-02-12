@@ -9,18 +9,21 @@ export default (store, options = {}) => {
     const {
         positionThrottleTime = 100,
         clickStateThrottleTime = 100,
+        target,
     } = options
 
     if (typeof window !== 'undefined') {
-        window.addEventListener('mousemove', throttle(
+        const theTarget = typeof target === 'undefined' ? window : target
+
+        theTarget.addEventListener('mousemove', throttle(
             (event) => store.dispatch(updatePosition(event)),
             positionThrottleTime
         ))
-        window.addEventListener('mouseup', throttle(
+        theTarget.addEventListener('mouseup', throttle(
             () => store.dispatch(updateClickState(false)),
             clickStateThrottleTime
         ))
-        window.addEventListener('mousedown', throttle(
+        theTarget.addEventListener('mousedown', throttle(
             () => store.dispatch(updateClickState(true)),
             clickStateThrottleTime
         ))
