@@ -1,6 +1,6 @@
 {
   "name": "redux-mouse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utilities for managing mouse state with redux.",
   "main": "build/index.js",
   "repository": {
