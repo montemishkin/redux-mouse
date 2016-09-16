@@ -1,0 +1,2 @@
+- add `downEdge` and `upEdge` keys to state so that users can respond to the fact that the mouse has just changed from up to down, rather than only being able to not that the mouse is currently down.
+- add tests
